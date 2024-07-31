@@ -16,12 +16,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-route::get('/',[TemplateController::class, 'index'])->name('frontend.home');
-
-route::get('/testimonial',[TestimonialController::class, 'index'])->name('frontend.testimonial');
-
-route::get('/javascript',[javascriptController::class, 'index'])->name('frontend.javascript');
