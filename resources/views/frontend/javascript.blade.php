@@ -62,7 +62,7 @@
 @push('js')
 
 <script>
-
-
-    </script>
+    console.log('JavaScript is working!');
+    alert('JavaScript is working!');
+</script>
 @endpush
